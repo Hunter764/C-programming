@@ -4,9 +4,9 @@ int main(){
 	int a,b,c,d;
 	printf("Enter 1st number:");
 	scanf("%d",&a);
-	printf("Enter 2st number:");
+	printf("Enter 2nd number:");
 	scanf("%d",&b);
-	printf("Enter 3st number:");
+	printf("Enter 3rd number:");
 	scanf("%d",&c);
 	if(a+b>c && b+c>a && c+a>b){
 		printf(" 3 inputs numbers are sides of triangle");
